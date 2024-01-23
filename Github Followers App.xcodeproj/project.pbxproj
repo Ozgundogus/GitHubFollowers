@@ -15,6 +15,7 @@
 		0CE10A7C2B544A37002E0C05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE10A7B2B544A37002E0C05 /* SceneDelegate.swift */; };
 		0CE10A832B544A38002E0C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CE10A822B544A38002E0C05 /* Assets.xcassets */; };
 		0CE10A862B544A38002E0C05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CE10A842B544A38002E0C05 /* LaunchScreen.storyboard */; };
+		0CEBC0922B5EFDD0003E1BCF /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBC0912B5EFDD0003E1BCF /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0CE10A822B544A38002E0C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CE10A852B544A38002E0C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CE10A872B544A38002E0C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEBC0912B5EFDD0003E1BCF /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +67,11 @@
 				0CDA41CC2B57256700FFB5E2 /* FavoritesListVC.swift */,
 				0CDA41CA2B5723B800FFB5E2 /* SearchVC.swift */,
 				0C80F1762B58175B003CC4EF /* GFButton.swift */,
+				0C80F1782B59227C003CC4EF /* GFTextField.swift */,
+				0CEBC0912B5EFDD0003E1BCF /* FollowerListVC.swift */,
 				0CE10A822B544A38002E0C05 /* Assets.xcassets */,
 				0CE10A842B544A38002E0C05 /* LaunchScreen.storyboard */,
 				0CE10A872B544A38002E0C05 /* Info.plist */,
-				0C80F1782B59227C003CC4EF /* GFTextField.swift */,
 			);
 			path = "Github Followers App";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				0CDA41CD2B57256700FFB5E2 /* FavoritesListVC.swift in Sources */,
 				0C80F1772B58175B003CC4EF /* GFButton.swift in Sources */,
 				0CDA41CB2B5723B800FFB5E2 /* SearchVC.swift in Sources */,
+				0CEBC0922B5EFDD0003E1BCF /* FollowerListVC.swift in Sources */,
 				0CE10A7A2B544A37002E0C05 /* AppDelegate.swift in Sources */,
 				0CE10A7C2B544A37002E0C05 /* SceneDelegate.swift in Sources */,
 			);
