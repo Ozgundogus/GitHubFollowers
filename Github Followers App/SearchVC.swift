@@ -22,6 +22,7 @@ class SearchVC: UIViewController {
         configureLogoImageView()
         configureTextField()
         configureCallToActionButton()
+        createDismissKeyboardType()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -29,7 +30,7 @@ class SearchVC: UIViewController {
         navigationController?.isNavigationBarHidden = true
     }
     
-    func createDismissKeyboardType (){
+    func createDismissKeyboardType(){
         
         let tap = UIGestureRecognizer(target: self.view, action: #selector(UIView.endEditing)) // Klavyeyi kapatmak için
         view.addGestureRecognizer(tap)
